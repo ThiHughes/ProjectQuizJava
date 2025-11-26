@@ -1,13 +1,56 @@
 import java.util.Scanner;
 
 public class Questao {
-    String pergunta = "";
-    String opcaoA = "";
-    String opcaoB = "";
-    String opcaoC = "";
-    String opcaoD = "";
-    String opcaoE = "";
-    String correta = "";
+    private String pergunta = "";
+    private String opcaoA = "";
+    private String opcaoB = "";
+    private String opcaoC = "";
+    private String opcaoD = "";
+    private String opcaoE = "";
+    private String correta = "";
+
+    public String getPergunta() {
+        return pergunta;
+    }
+    public void setPergunta(String pergunta) {
+        this.pergunta = pergunta;
+    }
+    public String getOpcaoA() {
+        return opcaoA;
+    }
+    public void setOpcaoA(String opcaoA) {
+        this.opcaoA = opcaoA;
+    }
+    public String getOpcaoB() {
+        return opcaoB;
+    }
+    public void setOpcaoB(String opcaoB) {
+        this.opcaoB = opcaoB;
+    }
+    public String getOpcaoC() {
+        return opcaoC;
+    }
+    public void setOpcaoC(String opcaoC) {
+        this.opcaoC = opcaoC;
+    }
+    public String getOpcaoD() {
+        return opcaoD;
+    }
+    public void setOpcaoD(String opcaoD) {
+        this.opcaoD = opcaoD;
+    }
+    public String getOpcaoE() {
+        return opcaoE;
+    }
+    public void setOpcaoE(String opcaoE) {
+        this.opcaoE = opcaoE;
+    }
+    public String getCorreta() {
+        return correta;
+    }
+    public void setCorreta(String correta) {
+        this.correta = correta;
+    }
 
     public boolean isCorreta(String resposta){
         if(resposta.equalsIgnoreCase(this.correta)){

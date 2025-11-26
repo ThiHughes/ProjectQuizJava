@@ -12,13 +12,13 @@ public class Main {
         //Parte das Questões
 
         Questao q1 = new Questao();
-        q1.pergunta = "1. Em Naruto, qual é o nome da raposa selada dentro de Naruto Uzumaki?";
-        q1.opcaoA = "A - Shukaku";
-        q1.opcaoB = "B - Kurama";
-        q1.opcaoC = "C - Gyuki";
-        q1.opcaoD = "D - Son Goku";
-        q1.opcaoE = "E - Matatabi";
-        q1.correta = "B";
+        q1.setPergunta("1. Em Naruto, qual é o nome da raposa selada dentro de Naruto Uzumaki?");
+        q1.setOpcaoA("A - Shukaku");
+        q1.setOpcaoB("B - Kurama");
+        q1.setOpcaoC("C - Gyuki");
+        q1.setOpcaoD("D - Son Goku");
+        q1.setOpcaoE("E - Matatabi");
+        q1.setCorreta("B");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -28,13 +28,13 @@ public class Main {
         }
 
         Questao q2 = new Questao();
-        q2.pergunta = "2. Qual é o nome do protagonista de Death Note??";
-        q2.opcaoA = "A - Light Yagami";
-        q2.opcaoB = "B - L Lawliet";
-        q2.opcaoC = "C - Misa Amane";
-        q2.opcaoD = "D - Near";
-        q2.opcaoE = "E - Ryuk";
-        q2.correta = "A";
+        q2.setPergunta("2. Qual é o nome do protagonista de Death Note??");
+        q2.setOpcaoA("A - Light Yagami");
+        q2.setOpcaoB("B - L Lawliet");
+        q2.setOpcaoC("C - Misa Amane");
+        q2.setOpcaoD("D - Near");
+        q2.setOpcaoE("E - Ryuk");
+        q2.setCorreta("A");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -44,13 +44,13 @@ public class Main {
         }
 
         Questao q3 = new Questao();
-        q3.pergunta = "3. Em Dragon Ball Z, quem derrota Cell?";
-        q3.opcaoA = "A - Goku";
-        q3.opcaoB = "B - Vegeta";
-        q3.opcaoC = "C - Trunks";
-        q3.opcaoD = "D - Piccolo";
-        q3.opcaoE = "E - Gohan";
-        q3.correta = "E";
+        q3.setPergunta("3. Em Dragon Ball Z, quem derrota Cell?");
+        q3.setOpcaoA("A - Goku");
+        q3.setOpcaoB("B - Vegeta");
+        q3.setOpcaoC("C - Trunks");
+        q3.setOpcaoD("D - Piccolo");
+        q3.setOpcaoE("E - Gohan");
+        q3.setCorreta("E");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -60,13 +60,13 @@ public class Main {
         }
 
         Questao q4 = new Questao();
-        q4.pergunta = "4. Qual é o poder principal de Luffy em One Piece???";
-        q4.opcaoA = "A - Controlar a água";
-        q4.opcaoB = "B - Transformar-se em fogo";
-        q4.opcaoC = "C - Esticar o corpo como borracha";
-        q4.opcaoD = "D - Ficar invisível";
-        q4.opcaoE = "E - Ler mentes";
-        q4.correta = "C";
+        q4.setPergunta("4. Qual é o poder principal de Luffy em One Piece???");
+        q4.setOpcaoA("A - Controlar a água");
+        q4.setOpcaoB("B - Transformar-se em fogo");
+        q4.setOpcaoC("C - Esticar o corpo como borracha");
+        q4.setOpcaoD("D - Ficar invisível");
+        q4.setOpcaoE("E - Ler mentes");
+        q4.setCorreta("C");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -76,13 +76,13 @@ public class Main {
         }
 
         Questao q5 = new Questao();
-        q5.pergunta = "5. Qual destes animes foi criado por Hayao Miyazaki e produzido pelo Studio Ghibli?";
-        q5.opcaoA = "A - Akira";
-        q5.opcaoB = "B - A Viagem de Chihiro";
-        q5.opcaoC = "C - Your Name";
-        q5.opcaoD = "D - Bleach";
-        q5.opcaoE = "E - Perfect Blue";
-        q5.correta = "B";
+        q5.setPergunta("5. Qual destes animes foi criado por Hayao Miyazaki e produzido pelo Studio Ghibli?");
+        q5.setOpcaoA("A - Akira");
+        q5.setOpcaoB("B - A Viagem de Chihiro");
+        q5.setOpcaoC("C - Your Name");
+        q5.setOpcaoD("D - Bleach");
+        q5.setOpcaoE("E - Perfect Blue");
+        q5.setCorreta("B");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -92,13 +92,13 @@ public class Main {
         }
 
         Questao q6 = new Questao();
-        q6.pergunta = "6. Em Attack on Titan (Shingeki no Kyojin), qual é o verdadeiro nome do Titã de Eren?";
-        q6.opcaoA = "A - Titã Fundador";
-        q6.opcaoB = "B - Titã Blindado";
-        q6.opcaoC = "C - Titã de Ataque";
-        q6.opcaoD = "D - Titã Bestial";
-        q6.opcaoE = "E - Titã Colossal";
-        q6.correta = "C";
+        q6.setPergunta("6. Em Attack on Titan (Shingeki no Kyojin), qual é o verdadeiro nome do Titã de Eren?");
+        q6.setOpcaoA("A - Titã Fundador");
+        q6.setOpcaoB("B - Titã Blindado");
+        q6.setOpcaoC("C - Titã de Ataque");
+        q6.setOpcaoD("D - Titã Bestial");
+        q6.setOpcaoE("E - Titã Colossal");
+        q6.setCorreta("C");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -108,13 +108,13 @@ public class Main {
         }
 
         Questao q7 = new Questao();
-        q7.pergunta = "7. Em Fullmetal Alchemist: Brotherhood, qual é a principal regra da alquimia?";
-        q7.opcaoA = "A - É proibido transmutar humanos";
-        q7.opcaoB = "B - Energia ilimitada pode ser criada do nada";
-        q7.opcaoC = "C - Para obter algo, algo de valor igual deve ser perdido";
-        q7.opcaoD = "D - Sempre é necessário um círculo de transmutação";
-        q7.opcaoE = "E - O chumbo nunca pode ser transformado em ouro";
-        q7.correta = "C";
+        q7.setPergunta("7. Em Fullmetal Alchemist: Brotherhood, qual é a principal regra da alquimia?");
+        q7.setOpcaoA("A - É proibido transmutar humanos");
+        q7.setOpcaoB("B - Energia ilimitada pode ser criada do nada");
+        q7.setOpcaoC("C - Para obter algo, algo de valor igual deve ser perdido");
+        q7.setOpcaoD("D - Sempre é necessário um círculo de transmutação");
+        q7.setOpcaoE("E - O chumbo nunca pode ser transformado em ouro");
+        q7.setCorreta("C");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -124,13 +124,13 @@ public class Main {
         }
 
         Questao q8 = new Questao();
-        q8.pergunta = "8. Qual desses personagens é um Shinigami em Bleach?";
-        q8.opcaoA = "A - Naruto Uzumaki";
-        q8.opcaoB = "B - Ichigo Kurosaki";
-        q8.opcaoC = "C - Goku";
-        q8.opcaoD = "D - Eren Yeager";
-        q8.opcaoE = "E - Gon Freecss";
-        q8.correta = "B";
+        q8.setPergunta("8. Qual desses personagens é um Shinigami em Bleach?");
+        q8.setOpcaoA("A - Naruto Uzumaki");
+        q8.setOpcaoB("B - Ichigo Kurosaki");
+        q8.setOpcaoC("C - Goku");
+        q8.setOpcaoD("D - Eren Yeager");
+        q8.setOpcaoE("E - Gon Freecss");
+        q8.setCorreta("B");
 
         System.out.println("-----------------------------------------------------------");
 
