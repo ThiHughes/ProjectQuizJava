@@ -140,13 +140,13 @@ public class Main {
         }
 
         Questao q9 = new Questao();
-        q9.pergunta = "9. Qual é o objetivo principal dos personagens em Hunter x Hunter?";
-        q9.opcaoA = "A - Tornarem-se Hunters profissionais";
-        q9.opcaoB = "B - Conquistarem reinos";
-        q9.opcaoC = "C - Recuperarem um tesouro lendário";
-        q9.opcaoD = "D - Vingarem suas famílias";
-        q9.opcaoE = "E - Se tornarem ninjas lendários";
-        q9.correta = "A";
+        q9.setPergunta("9. Qual é o objetivo principal dos personagens em Hunter x Hunter?");
+        q9.setOpcaoA("A - Tornarem-se Hunters profissionais");
+        q9.setOpcaoB("B - Conquistarem reinos");
+        q9.setOpcaoC("C - Recuperarem um tesouro lendário");
+        q9.setOpcaoD("D - Vingarem suas famílias");
+        q9.setOpcaoE("E - Se tornarem ninjas lendários");
+        q9.setCorreta("A");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -156,13 +156,13 @@ public class Main {
         }
 
         Questao q10 = new Questao();
-        q10.pergunta = "10. Quem é o autor de Demon Slayer (Kimetsu no Yaiba)?";
-        q10.opcaoA = "A - Tite Kubo";
-        q10.opcaoB = "B - Masashi Kishimoto";
-        q10.opcaoC = "C - Eiichiro Oda";
-        q10.opcaoD = "D - Koyoharu Gotouge";
-        q10.opcaoE = "E - Akira Toriyama";
-        q10.correta = "D";
+        q10.setPergunta("10. Quem é o autor de Demon Slayer (Kimetsu no Yaiba)?");
+        q10.setOpcaoA("A - Tite Kubo");
+        q10.setOpcaoB("B - Masashi Kishimoto");
+        q10.setOpcaoC("C - Eiichiro Oda");
+        q10.setOpcaoD("D - Koyoharu Gotouge");
+        q10.setOpcaoE("E - Akira Toriyama");
+        q10.setCorreta("D");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -172,13 +172,13 @@ public class Main {
         }
 
         Questao q11 = new Questao();
-        q11.pergunta = "11. Qual destes animes se passa em um mundo virtual de MMORPG?";
-        q11.opcaoA = "A - Sword Art Online";
-        q11.opcaoB = "B - Tokyo Ghoul";
-        q11.opcaoC = "C - Death Parade";
-        q11.opcaoD = "D - Black Clover";
-        q11.opcaoE = "E - Blue Exorcist";
-        q11.correta = "A";
+        q11.setPergunta("11. Qual destes animes se passa em um mundo virtual de MMORPG?");
+        q11.setOpcaoA("A - Sword Art Online");
+        q11.setOpcaoB("B - Tokyo Ghoul");
+        q11.setOpcaoC("C - Death Parade");
+        q11.setOpcaoD("D - Black Clover");
+        q11.setOpcaoE("E - Blue Exorcist");
+        q11.setCorreta("A");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -188,13 +188,13 @@ public class Main {
         }
 
         Questao q12 = new Questao();
-        q12.pergunta = "12. Em Tokyo Ghoul, o que são os “Ghouls”??";
-        q12.opcaoA = "A - Espíritos que caçam humanos";
-        q12.opcaoB = "B - Criaturas que se alimentam de humanos";
-        q12.opcaoC = "C - Vampiros que brilham no sol";
-        q12.opcaoD = "D - Robôs disfarçados de pessoas";
-        q12.opcaoE = "E - Humanos que controlam monstros";
-        q12.correta = "B";
+        q12.setPergunta("12. Em Tokyo Ghoul, o que são os “Ghouls”??");
+        q12.setOpcaoA("A - Espíritos que caçam humanos");
+        q12.setOpcaoB("B - Criaturas que se alimentam de humanos");
+        q12.setOpcaoC("C - Vampiros que brilham no sol");
+        q12.setOpcaoD("D - Robôs disfarçados de pessoas");
+        q12.setOpcaoE("E - Humanos que controlam monstros");
+        q12.setCorreta("B");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -204,13 +204,13 @@ public class Main {
         }
 
         Questao q13 = new Questao();
-        q13.pergunta = "13. Qual destes personagens é conhecido como “O Mago das Chamas” em Fairy Tail?";
-        q13.opcaoA = "A - Laxus Dreyar";
-        q13.opcaoB = "B - Gray Fullbuster";
-        q13.opcaoC = "C - Gajeel Redfox";
-        q13.opcaoD = "D - Natsu Dragneel";
-        q13.opcaoE = "E - Erza Scarlet";
-        q13.correta = "D";
+        q13.setPergunta("13. Qual destes personagens é conhecido como “O Mago das Chamas” em Fairy Tail?");
+        q13.setOpcaoA("A - Laxus Dreyar");
+        q13.setOpcaoB("B - Gray Fullbuster");
+        q13.setOpcaoC("C - Gajeel Redfox");
+        q13.setOpcaoD("D - Natsu Dragneel");
+        q13.setOpcaoE("E - Erza Scarlet");
+        q13.setCorreta("D");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -220,13 +220,13 @@ public class Main {
         }
 
         Questao q14 = new Questao();
-        q14.pergunta = "14. Em My Hero Academia, qual é o nome do poder de Izuku Midoriya?";
-        q14.opcaoA = "A - Gear Second";
-        q14.opcaoB = "B - Sharingan";
-        q14.opcaoC = "C - Titan Form";
-        q14.opcaoD = "D - One For All";
-        q14.opcaoE = "E - Bankai";
-        q14.correta = "D";
+        q14.setPergunta("14. Em My Hero Academia, qual é o nome do poder de Izuku Midoriya?");
+        q14.setOpcaoA("A - Gear Second");
+        q14.setOpcaoB("B - Sharingan");
+        q14.setOpcaoC("C - Titan Form");
+        q14.setOpcaoD("D - One For All");
+        q14.setOpcaoE("E - Bankai");
+        q14.setCorreta("D");
 
         System.out.println("-----------------------------------------------------------");
 
@@ -236,13 +236,13 @@ public class Main {
         }
 
         Questao q15 = new Questao();
-        q15.pergunta = "15. Qual destes animes tem como tema principal o jogo de cartas?";
-        q15.opcaoA = "A - One Punch Man";
-        q15.opcaoB = "B - Yu-Gi-Oh!";
-        q15.opcaoC = "C - Fairy Tail";
-        q15.opcaoD = "D - Demon Slayer";
-        q15.opcaoE = "E - Naruto";
-        q15.correta = "B";
+        q15.setPergunta("15. Qual destes animes tem como tema principal o jogo de cartas?");
+        q15.setOpcaoA("A - One Punch Man");
+        q15.setOpcaoB("B - Yu-Gi-Oh!");
+        q15.setOpcaoC("C - Fairy Tail");
+        q15.setOpcaoD("D - Demon Slayer");
+        q15.setOpcaoE("E - Naruto");
+        q15.setCorreta("B");
 
         System.out.println("-----------------------------------------------------------");
 
