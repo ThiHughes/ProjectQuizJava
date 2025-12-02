@@ -7,6 +7,9 @@ public class Main {
         int pontos = 0;
         List<Questao> questoes = new ArrayList<>();
 
+        System.out.println("+------------------------------+");
+        System.out.println("|         QUIZ - Anime         |");
+        System.out.println("+------------------------------+");
 
         //Parte das Questões
 
@@ -264,14 +267,8 @@ public class Main {
         if (q15.isCorreta(q15.leiaResposta())) {
             pontos++;
         }
-        System.out.println("-----------------------------------------------------------");
 
-        System.out.println(">>> Quiz - Animes <<<");
-        for (Questao q:questoes) {
-            q.escrevaQuestao();
-            String resposta = q.leiaResposta();
-            if (q.isCorreta(resposta)) pontos++;
-        }
+        System.out.println("-----------------------------------------------------------");
 
         System.out.println("Este é o fim! Olha só, você fez "+pontos+" pontos!");
         System.out.println("Total: " + (float)pontos*100/15 + "%");
