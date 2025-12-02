@@ -3,15 +3,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
         int pontos = 0;
         List<Questao> questoes = new ArrayList<>();
 
         System.out.println("+------------------------------+");
         System.out.println("|         QUIZ - Anime         |");
         System.out.println("+------------------------------+");
-
-        //Parte das Questões
 
         Questao q1 = new Questao();
         q1.setPergunta("1. Em Naruto, qual é o nome da raposa selada dentro de Naruto Uzumaki?");
