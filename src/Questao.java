@@ -69,7 +69,7 @@ public class Questao {
         Scanner ler = new Scanner(System.in);
         String resp;
         do {
-            System.out.println("Digite a resposta: ");
+            System.out.print("Digite a resposta: ");
             resp = ler.next();
         } while (!respostaValida(resp));
         return resp;

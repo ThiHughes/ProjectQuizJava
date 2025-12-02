@@ -20,13 +20,6 @@ public class Main {
         q1.setCorreta("B");
         questoes.add(q1);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q1.escrevaQuestao();
-        if (q1.isCorreta(q1.leiaResposta())){
-            pontos++;
-        }
-
         Questao q2 = new Questao();
         q2.setPergunta("2. Qual é o nome do protagonista de Death Note??");
         q2.setOpcaoA("A - Light Yagami");
@@ -36,13 +29,6 @@ public class Main {
         q2.setOpcaoE("E - Ryuk");
         q2.setCorreta("A");
         questoes.add(q2);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q2.escrevaQuestao();
-        if (q2.isCorreta(q2.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q3 = new Questao();
         q3.setPergunta("3. Em Dragon Ball Z, quem derrota Cell?");
@@ -54,13 +40,6 @@ public class Main {
         q3.setCorreta("E");
         questoes.add(q3);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q3.escrevaQuestao();
-        if (q3.isCorreta(q3.leiaResposta())) {
-            pontos++;
-        }
-
         Questao q4 = new Questao();
         q4.setPergunta("4. Qual é o poder principal de Luffy em One Piece???");
         q4.setOpcaoA("A - Controlar a água");
@@ -70,13 +49,6 @@ public class Main {
         q4.setOpcaoE("E - Ler mentes");
         q4.setCorreta("C");
         questoes.add(q4);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q4.escrevaQuestao();
-        if (q4.isCorreta(q4.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q5 = new Questao();
         q5.setPergunta("5. Qual destes animes foi criado por Hayao Miyazaki e produzido pelo Studio Ghibli?");
@@ -88,13 +60,6 @@ public class Main {
         q5.setCorreta("B");
         questoes.add(q5);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q5.escrevaQuestao();
-        if (q5.isCorreta(q5.leiaResposta())) {
-            pontos++;
-        }
-
         Questao q6 = new Questao();
         q6.setPergunta("6. Em Attack on Titan (Shingeki no Kyojin), qual é o verdadeiro nome do Titã de Eren?");
         q6.setOpcaoA("A - Titã Fundador");
@@ -104,13 +69,6 @@ public class Main {
         q6.setOpcaoE("E - Titã Colossal");
         q6.setCorreta("C");
         questoes.add(q6);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q6.escrevaQuestao();
-        if (q6.isCorreta(q6.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q7 = new Questao();
         q7.setPergunta("7. Em Fullmetal Alchemist: Brotherhood, qual é a principal regra da alquimia?");
@@ -122,13 +80,6 @@ public class Main {
         q7.setCorreta("C");
         questoes.add(q7);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q7.escrevaQuestao();
-        if (q7.isCorreta(q7.leiaResposta())) {
-            pontos++;
-        }
-
         Questao q8 = new Questao();
         q8.setPergunta("8. Qual desses personagens é um Shinigami em Bleach?");
         q8.setOpcaoA("A - Naruto Uzumaki");
@@ -138,13 +89,6 @@ public class Main {
         q8.setOpcaoE("E - Gon Freecss");
         q8.setCorreta("B");
         questoes.add(q8);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q8.escrevaQuestao();
-        if (q8.isCorreta(q8.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q9 = new Questao();
         q9.setPergunta("9. Qual é o objetivo principal dos personagens em Hunter x Hunter?");
@@ -156,13 +100,6 @@ public class Main {
         q9.setCorreta("A");
         questoes.add(q9);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q9.escrevaQuestao();
-        if (q9.isCorreta(q9.leiaResposta())) {
-            pontos++;
-        }
-
         Questao q10 = new Questao();
         q10.setPergunta("10. Quem é o autor de Demon Slayer (Kimetsu no Yaiba)?");
         q10.setOpcaoA("A - Tite Kubo");
@@ -172,13 +109,6 @@ public class Main {
         q10.setOpcaoE("E - Akira Toriyama");
         q10.setCorreta("D");
         questoes.add(q10);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q10.escrevaQuestao();
-        if (q10.isCorreta(q10.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q11 = new Questao();
         q11.setPergunta("11. Qual destes animes se passa em um mundo virtual de MMORPG?");
@@ -190,13 +120,6 @@ public class Main {
         q11.setCorreta("A");
         questoes.add(q11);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q11.escrevaQuestao();
-        if (q11.isCorreta(q11.leiaResposta())) {
-            pontos++;
-        }
-
         Questao q12 = new Questao();
         q12.setPergunta("12. Em Tokyo Ghoul, o que são os 'Ghouls'??");
         q12.setOpcaoA("A - Espíritos que caçam humanos");
@@ -206,13 +129,6 @@ public class Main {
         q12.setOpcaoE("E - Humanos que controlam monstros");
         q12.setCorreta("B");
         questoes.add(q12);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q12.escrevaQuestao();
-        if (q12.isCorreta(q12.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q13 = new Questao();
         q13.setPergunta("13. Qual destes personagens é conhecido como 'O Mago das Chamas' em Fairy Tail?");
@@ -224,13 +140,6 @@ public class Main {
         q13.setCorreta("D");
         questoes.add(q13);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q13.escrevaQuestao();
-        if (q13.isCorreta(q13.leiaResposta())) {
-            pontos++;
-        }
-
         Questao q14 = new Questao();
         q14.setPergunta("14. Em My Hero Academia, qual é o nome do poder de Izuku Midoriya?");
         q14.setOpcaoA("A - Gear Second");
@@ -240,13 +149,6 @@ public class Main {
         q14.setOpcaoE("E - Bankai");
         q14.setCorreta("D");
         questoes.add(q14);
-
-        System.out.println("-----------------------------------------------------------");
-
-        q14.escrevaQuestao();
-        if (q14.isCorreta(q14.leiaResposta())) {
-            pontos++;
-        }
 
         Questao q15 = new Questao();
         q15.setPergunta("15. Qual destes animes tem como tema principal o jogo de cartas?");
@@ -258,17 +160,18 @@ public class Main {
         q15.setCorreta("B");
         questoes.add(q15);
 
-        System.out.println("-----------------------------------------------------------");
-
-        q15.escrevaQuestao();
-        if (q15.isCorreta(q15.leiaResposta())) {
-            pontos++;
+        for (Questao q:questoes){
+            q.escrevaQuestao();
+            if (q.isCorreta(q.leiaResposta())) {
+                pontos++;
+            }
+            System.out.println("-----------------------------------------------------------");
         }
 
-        System.out.println("-----------------------------------------------------------");
-
         System.out.println("Este é o fim! Olha só, você fez "+pontos+" pontos!");
-        System.out.println("Total: " + (float)pontos*100/15 + "%");
+//        System.out.println("Total: " + (float)pontos*100/15 + "%");
+        float resultadoPontos = (float)pontos*100/15;
+        System.out.printf("Total: %.2f%%\n", resultadoPontos);
 
         System.out.println("-----------------------------------------------------------");
 
