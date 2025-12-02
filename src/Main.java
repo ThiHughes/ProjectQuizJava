@@ -169,7 +169,6 @@ public class Main {
         }
 
         System.out.println("Este é o fim! Olha só, você fez "+pontos+" pontos!");
-//        System.out.println("Total: " + (float)pontos*100/15 + "%");
         float resultadoPontos = (float)pontos*100/15;
         System.out.printf("Total: %.2f%%\n", resultadoPontos);
 
