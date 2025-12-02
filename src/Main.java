@@ -1,13 +1,12 @@
-import java.sql.SQLOutput;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
         int pontos = 0;
+        List<Questao> questoes = new ArrayList<>();
 
-        System.out.println("+------------------------------+");
-        System.out.println("|         QUIZ - Anime         |");
-        System.out.println("+------------------------------+");
 
         //Parte das Questões
 
@@ -19,6 +18,7 @@ public class Main {
         q1.setOpcaoD("D - Son Goku");
         q1.setOpcaoE("E - Matatabi");
         q1.setCorreta("B");
+        questoes.add(q1);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -35,6 +35,7 @@ public class Main {
         q2.setOpcaoD("D - Near");
         q2.setOpcaoE("E - Ryuk");
         q2.setCorreta("A");
+        questoes.add(q2);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -51,6 +52,7 @@ public class Main {
         q3.setOpcaoD("D - Piccolo");
         q3.setOpcaoE("E - Gohan");
         q3.setCorreta("E");
+        questoes.add(q3);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -67,6 +69,7 @@ public class Main {
         q4.setOpcaoD("D - Ficar invisível");
         q4.setOpcaoE("E - Ler mentes");
         q4.setCorreta("C");
+        questoes.add(q4);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -83,6 +86,7 @@ public class Main {
         q5.setOpcaoD("D - Bleach");
         q5.setOpcaoE("E - Perfect Blue");
         q5.setCorreta("B");
+        questoes.add(q5);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -99,6 +103,7 @@ public class Main {
         q6.setOpcaoD("D - Titã Bestial");
         q6.setOpcaoE("E - Titã Colossal");
         q6.setCorreta("C");
+        questoes.add(q6);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -115,6 +120,7 @@ public class Main {
         q7.setOpcaoD("D - Sempre é necessário um círculo de transmutação");
         q7.setOpcaoE("E - O chumbo nunca pode ser transformado em ouro");
         q7.setCorreta("C");
+        questoes.add(q7);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -131,6 +137,7 @@ public class Main {
         q8.setOpcaoD("D - Eren Yeager");
         q8.setOpcaoE("E - Gon Freecss");
         q8.setCorreta("B");
+        questoes.add(q8);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -147,6 +154,7 @@ public class Main {
         q9.setOpcaoD("D - Vingarem suas famílias");
         q9.setOpcaoE("E - Se tornarem ninjas lendários");
         q9.setCorreta("A");
+        questoes.add(q9);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -163,6 +171,7 @@ public class Main {
         q10.setOpcaoD("D - Koyoharu Gotouge");
         q10.setOpcaoE("E - Akira Toriyama");
         q10.setCorreta("D");
+        questoes.add(q10);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -179,6 +188,7 @@ public class Main {
         q11.setOpcaoD("D - Black Clover");
         q11.setOpcaoE("E - Blue Exorcist");
         q11.setCorreta("A");
+        questoes.add(q11);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -188,13 +198,14 @@ public class Main {
         }
 
         Questao q12 = new Questao();
-        q12.setPergunta("12. Em Tokyo Ghoul, o que são os “Ghouls”??");
+        q12.setPergunta("12. Em Tokyo Ghoul, o que são os 'Ghouls'??");
         q12.setOpcaoA("A - Espíritos que caçam humanos");
         q12.setOpcaoB("B - Criaturas que se alimentam de humanos");
         q12.setOpcaoC("C - Vampiros que brilham no sol");
         q12.setOpcaoD("D - Robôs disfarçados de pessoas");
         q12.setOpcaoE("E - Humanos que controlam monstros");
         q12.setCorreta("B");
+        questoes.add(q12);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -204,13 +215,14 @@ public class Main {
         }
 
         Questao q13 = new Questao();
-        q13.setPergunta("13. Qual destes personagens é conhecido como “O Mago das Chamas” em Fairy Tail?");
+        q13.setPergunta("13. Qual destes personagens é conhecido como 'O Mago das Chamas' em Fairy Tail?");
         q13.setOpcaoA("A - Laxus Dreyar");
         q13.setOpcaoB("B - Gray Fullbuster");
         q13.setOpcaoC("C - Gajeel Redfox");
         q13.setOpcaoD("D - Natsu Dragneel");
         q13.setOpcaoE("E - Erza Scarlet");
         q13.setCorreta("D");
+        questoes.add(q13);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -227,6 +239,7 @@ public class Main {
         q14.setOpcaoD("D - One For All");
         q14.setOpcaoE("E - Bankai");
         q14.setCorreta("D");
+        questoes.add(q14);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -243,6 +256,7 @@ public class Main {
         q15.setOpcaoD("D - Demon Slayer");
         q15.setOpcaoE("E - Naruto");
         q15.setCorreta("B");
+        questoes.add(q15);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -250,10 +264,16 @@ public class Main {
         if (q15.isCorreta(q15.leiaResposta())) {
             pontos++;
         }
-
         System.out.println("-----------------------------------------------------------");
 
-        System.out.println("Este é o fim! Olha só, você acertou "+pontos+" pontos!");
+        System.out.println(">>> Quiz - Animes <<<");
+        for (Questao q:questoes) {
+            q.escrevaQuestao();
+            String resposta = q.leiaResposta();
+            if (q.isCorreta(resposta)) pontos++;
+        }
+
+        System.out.println("Este é o fim! Olha só, você fez "+pontos+" pontos!");
         System.out.println("Total: " + (float)pontos*100/15 + "%");
 
         System.out.println("-----------------------------------------------------------");
